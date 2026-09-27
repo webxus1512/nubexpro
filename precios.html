@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>NubexPro</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box row">
+				<div class="col-md-12">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+						<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="Login">
+							<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+							</form>
+						</div>
+						<div class="tab-pane" id="Registration">
+							<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loading">
+			<div class="finger finger-1">
+				<div class="finger-item">
+				<span></span><i></i>
+				</div>
+			</div>
+  			<div class="finger finger-2">
+				<div class="finger-item">
+				<span></span><i></i>
+				</div>
+			</div>
+  			<div class="finger finger-3">
+				<div class="finger-item">
+				  <span></span><i></i>
+				</div>
+			</div>
+  			<div class="finger finger-4">
+				<div class="finger-item">
+				<span></span><i></i>
+				</div>
+			</div>
+  			<div class="last-finger">
+				<div class="last-finger-item"><i></i></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->
+
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logos/logo-hosting.png" alt="image"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html">Servicios </a></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>Precios<span class="m_1"> Coutas accesible para cualquier pyme</span></h1>
+		</div>
+	</div>
+	
+    <div id="pricing-box" class="section wb">
+        <div class="container">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="grid1">
+					<span>$170 MX/<small>mes</small></span>
+					<div class="price-tit text-center">
+						<h2>Plan pyme</h2>
+						<p>Ideal para emprendedores</p>
+					</div>
+					<div class="para">
+						
+						<p>100 GB de almacenamiento</p>
+						<p>Hasta 5 usuarios</p>
+						<p>Soporte tecnico 24/7</p>
+					</div>
+					<div class="pricing-table-sign-up">
+                                            <a href="https://wa.me/529373856381" target="_blank" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1 href=">Comprar </a>
+                                        </div>
+				</div>
+			</div>
+			
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="grid2">
+					<span>$350 MX/<small>mes</small></span>
+					<div class="price-tit text-center">
+						<h2>Plan Estandar</h2>
+						<p>Ideal para pymes</p>
+					</div>
+					<div class="para">
+						
+						<p>350 GB de almacenamiento</p>
+						<p>Usurios ilimitados</p>
+						<p>Soporte tecnico 24/7</p>
+					</div>
+					<div class="pricing-table-sign-up">
+                                            <a href="https://wa.me/529373856381" target="_blank" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1 href=">Comprar </a>
+                                        </div>
+				</div>
+			</div>
+			
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="grid3">
+					<span>$699 MX/<small>mes</small></span>
+					<div class="price-tit text-center">
+						<h2>Plan corporativo</h2>
+						<p>Ideal para mas de 20 empleados</p>
+					</div>
+					<div class="para">
+						
+						<p>1 TB de almacenamiento</p>
+						<p>Usuaios ilimitados</p>
+						<p>Soporte tecnico 24/7</p>
+					</div>
+					<div class="pricing-table-sign-up">
+                              <a href="https://wa.me/529373856381" target="_blank" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1 href=">Comprar </a>
+                      </div>
+				</div>
+			</div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="grid2">
+					<span>$1299 MX/<small>mes</small></span>
+					<div class="price-tit text-center">
+						<h2>Plan empresarial</h2>
+						<p>Ideal para mas de 30 empleados</p>
+					</div>
+					<div class="para">
+						
+						<p>2 TB de almacenamiento</p>
+						<p>Usurios ilimitados</p>
+						<p>Soporte tecnico 24/7</p>
+					</div>
+					<div class="pricing-table-sign-up">
+                                            <a href="https://wa.me/529373856381" target="_blank" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1 href=">Comprar </a>
+                                        </div>
+				</div>
+			</div>
+			<div class="clear"> </div>
+		</div>
+    </div><!-- end section -->
+	
+ <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <img src="images/logos/logo-hosting-light.png" alt="">
+                            <small>NubexPro</small>
+                        </div>
+                        <p> "Frente a un mercado donde el 86% de las empresas son atacadas y un disco duro externo ya no es suficiente, NubexPro te ofrece almacenamiento en la Nube Inmutable. Tus datos se blindan bloqueando cualquier intento de borrado o secuestro, asegurando que tu negocio nunca forme parte de las estadísticas".</p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+<div class="col-md-2 col-sm-2 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Legal</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="aviso-de-privacidad.html">Aviso legal</a></li>
+                            <li><a href="aviso-de-privacidad.html">Aviso de privacidad</a></li>
+                           
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				<div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        
+                        <div class="widget-title">
+                            <h3>Informacion</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Inicio</a></li>
+                           
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contactanos</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">soporte@nubexpro.com</a></li>
+                            <li><a href="#">www.nubexpro.com</a></li>
+                            <li>Cardenas, Tabasco , Mexico</li>
+                            <li>+52 937 385 6381</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                    
+                </div><!-- end col -->
+                
+
+               
+            </div><!-- end row -->
+            
+        </div><!-- end container -->
+        
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2026 NubexPro</a></p> 
+                </div>
+
+        
+            </div>
+            
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
